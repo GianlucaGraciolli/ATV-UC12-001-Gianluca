@@ -1,0 +1,17 @@
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\bin\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.exe
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\bin\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.deps.json
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\bin\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.runtimeconfig.json
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\bin\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.dll
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\bin\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.pdb
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.csproj.AssemblyReference.cache
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\PjtAtv_UC12_001_Gianluca.FormPrincipal.resources
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.csproj.GenerateResource.cache
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.AssemblyInfoInputs.cache
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.AssemblyInfo.cs
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.csproj.CoreCompileInputs.cache
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.dll
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\refint\PjtAtv-UC12-001-Gianluca.dll
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.pdb
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\PjtAtv-UC12-001-Gianluca.genruntimeconfig.cache
+C:\Users\gianluca.goliveira\source\repos\ATV-UC12-001-Gianluca\SoluAtv-UC12-001-Gianluca\PjtAtv-UC12-001-Gianluca\obj\Debug\net6.0-windows\ref\PjtAtv-UC12-001-Gianluca.dll
