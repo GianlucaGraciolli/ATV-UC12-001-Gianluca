@@ -161,6 +161,7 @@
             Controls.Add(lblId);
             Name = "FormPrincipal";
             Text = "FormPrincipal";
+            Load += FormPrincipal_Load;
             ResumeLayout(false);
             PerformLayout();
         }

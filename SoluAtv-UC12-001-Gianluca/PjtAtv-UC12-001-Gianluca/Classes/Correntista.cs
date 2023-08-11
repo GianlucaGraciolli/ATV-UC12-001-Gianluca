@@ -36,6 +36,27 @@ namespace PjtAtv_UC12_001_Gianluca.Classes
             RendaMensal = rendaMensal;            
         }
 
-        
+        public bool VerificarSeCorrentistaMaior()
+        {
+            /*TimeSpan diferenca = DateTime.Now - this.DataNascimento;
+            int idade = diferenca.Days / 365;
+            return idade;*/
+            int idade = DateTime.Now.Year - this.DataNascimento.Year;
+            if (DateTime.Now.Month < this.DataNascimento.Month || (DateTime.Now.Month < this.DataNascimento.Month && DateTime.Now.Day < this.DataNascimento.Day)) 
+            {
+                idade--;
+            }
+
+            if (idade >= 18)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+            
+        }
     }   
 }
