@@ -39,6 +39,7 @@
             btnCadastrar = new Button();
             DtpDataNasc = new DateTimePicker();
             txtId = new TextBox();
+            lblWelcome = new Label();
             SuspendLayout();
             // 
             // lblId
@@ -100,14 +101,18 @@
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(324, 25);
             txtNome.TabIndex = 6;
+            txtNome.TextChanged += txtNome_TextChanged;
             // 
             // txtCpf
             // 
             txtCpf.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             txtCpf.Location = new Point(162, 175);
+            txtCpf.MaxLength = 11;
+            txtCpf.MinimumSize = new Size(11, 11);
             txtCpf.Name = "txtCpf";
             txtCpf.Size = new Size(324, 25);
             txtCpf.TabIndex = 7;
+            txtCpf.TextChanged += txtCpf_TextChanged;
             // 
             // txtRendaMensal
             // 
@@ -116,6 +121,7 @@
             txtRendaMensal.Name = "txtRendaMensal";
             txtRendaMensal.Size = new Size(217, 25);
             txtRendaMensal.TabIndex = 9;
+            txtRendaMensal.TextChanged += txtRendaMensal_TextChanged;
             // 
             // btnCadastrar
             // 
@@ -143,11 +149,21 @@
             txtId.TabIndex = 5;
             txtId.TextChanged += txtId_TextChanged;
             // 
+            // lblWelcome
+            // 
+            lblWelcome.AutoSize = true;
+            lblWelcome.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            lblWelcome.Location = new Point(802, 89);
+            lblWelcome.Name = "lblWelcome";
+            lblWelcome.Size = new Size(0, 37);
+            lblWelcome.TabIndex = 12;
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1309, 608);
+            Controls.Add(lblWelcome);
             Controls.Add(DtpDataNasc);
             Controls.Add(btnCadastrar);
             Controls.Add(txtRendaMensal);
@@ -179,5 +195,6 @@
         private Button btnCadastrar;
         private DateTimePicker DtpDataNasc;
         private TextBox txtId;
+        private Label lblWelcome;
     }
 }
