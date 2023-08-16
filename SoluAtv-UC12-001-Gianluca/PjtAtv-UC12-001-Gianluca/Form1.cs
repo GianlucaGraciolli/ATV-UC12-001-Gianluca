@@ -1,5 +1,6 @@
 using PjtAtv_UC12_001_Gianluca.Classes;
 using System.Data;
+using System.Linq.Expressions;
 
 namespace PjtAtv_UC12_001_Gianluca
 {
@@ -11,6 +12,7 @@ namespace PjtAtv_UC12_001_Gianluca
         public FormPrincipal()
         {
             InitializeComponent();
+            txtId.Text = 1.ToString();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -25,18 +27,18 @@ namespace PjtAtv_UC12_001_Gianluca
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-
             
+
             try
-            {                 
+            {
                 if (Correntista.Equals == null)
                 {
-                    
+
                     correntista1 = new Correntista(txtNome.Text, txtCpf.Text, Convert.ToDateTime(DtpDataNasc.Text), Convert.ToDecimal(txtRendaMensal.Text));
-                    MessageBox.Show($"{correntista1.IdCorrentista}\n{correntista1.Nome}\n{correntista1.Cpf}\n{correntista1.DataNascimento}\n{correntista1.RendaMensal}\n{correntista1.RetornarPerfilCliente()}");
+
                     if (correntista1.VerificarSeCorrentistaMaior() == false)
                     {
-                        MessageBox.Show("Não tem idade para criar uma conta!", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        throw new Exception("Não tem idade para criar uma conta!");
                     }
                     else if (correntista1.Nome == string.Empty)
                     {
@@ -50,16 +52,32 @@ namespace PjtAtv_UC12_001_Gianluca
                     {
                         throw new Exception("A renda mensal deve ser diferente de zero");
                     }
-                    lblWelcome.Text = correntista1.MontarMensagemBoasVindas();
+                    else
+                    {
+
+                    }
                 }
-                else
+            }
+            catch (FormatException ex)
+            {
+                MessageBox.Show("A renda mensal deve ser diferente de zero");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Atenção");
+            }
+
+            try
+            {
+                if (Correntista.Equals != null)
                 {
-                     correntista2 = new Correntista(txtNome.Text, txtCpf.Text, Convert.ToDateTime(DtpDataNasc.Text), Convert.ToDecimal(txtRendaMensal.Text));
-                    MessageBox.Show($"{correntista2.IdCorrentista}\n{correntista2.Nome}\n{correntista2.Cpf}\n{correntista2.DataNascimento}\n{correntista2.RendaMensal}\n{correntista2.RetornarPerfilCliente()}");
-                    
+                    txtId.Text = Convert.ToString(2);
+
+                    correntista2 = new Correntista(txtNome.Text, txtCpf.Text, Convert.ToDateTime(DtpDataNasc.Text), Convert.ToDecimal(txtRendaMensal.Text));
+
                     if (correntista2.VerificarSeCorrentistaMaior() == false)
                     {
-                        MessageBox.Show("Não tem idade para criar uma conta!", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        throw new Exception("Não tem idade para criar uma conta!");
                     }
                     else if (correntista2.Nome == string.Empty)
                     {
@@ -73,26 +91,24 @@ namespace PjtAtv_UC12_001_Gianluca
                     {
                         throw new Exception("A renda mensal deve ser diferente de zero");
                     }
-                    lblWelcome.Text = correntista2.MontarMensagemBoasVindas();
+                    else
+                    {
+
+                    }
                 }
-               
+
             }
-            
+
             catch (FormatException ex)
             {
                 MessageBox.Show("A renda mensal deve ser diferente de zero");
             }
             catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message,"Atenção");
-                }
-            
-
-                
-            
-
-
+            {
+                MessageBox.Show(ex.Message, "Atenção");
+            }
         }
+
 
         private void lblId_Click(object sender, EventArgs e)
         {
